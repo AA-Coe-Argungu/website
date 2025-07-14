@@ -2,11 +2,12 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaUserGraduate, FaChalkboardTeacher, FaUniversity, FaBookOpen, FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { FaUserGraduate, FaChalkboardTeacher, FaUniversity, FaBookOpen, FaArrowRight, FaArrowLeft, FaTimes } from "react-icons/fa";
 
 const HomePage = () => {
   // Section 1: Slider
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [showModal, setShowModal] = useState(true);
   const slides = [
     {
       title: "Quality Teacher Education",
@@ -76,6 +77,46 @@ const HomePage = () => {
 
   return (
     <div className="bg-gray-50">
+      {showModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-xl max-w-2xl w-full p-6 relative">
+            <button onClick={() => setShowModal(false)} className="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+              <FaTimes className="text-xl" />
+            </button>
+
+            <div className="text-center mb-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">🚧 Site Under Construction</h2>
+              <p className="text-lg text-gray-600">Welcome to our temporary website. We're currently working on improvements.</p>
+            </div>
+
+            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <svg className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      fillRule="evenodd"
+                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm text-yellow-700">
+                    <strong>Note:</strong> All data and photos used on this site are temporary placeholders and will be replaced with actual college images
+                    soon.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex justify-center">
+              <button onClick={() => setShowModal(false)} className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-6 rounded-lg">
+                Continue to Site
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
       {/* Section 1: Hero Slider (not full page) */}
       <section className="relative h-96 md:h-screen max-h-[600px] overflow-hidden">
         {slides.map((slide, index) => (
