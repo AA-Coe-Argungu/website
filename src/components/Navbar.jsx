@@ -61,9 +61,9 @@ export default function Navbar() {
       { name: "Tuition Fees", href: "/fees" },
     ],
     resources: [
-      { name: "Student Portal", href: "/student-portal" },
-      { name: "Staff Portal", href: "/staff-portal" },
-      { name: "Admission Portal", href: "/admission-portal" },
+      { name: "Student Portal", href: "https://student.aacoeargungu.edu.ng" },
+      { name: "Staff Portal", href: "https://staff.aacoeargungu.edu.ng" },
+      { name: "Admission Portal", href: "https://admission.aacoeargungu.edu.ng" },
     ],
   };
 
@@ -232,7 +232,7 @@ export default function Navbar() {
             </div>
 
             <Link
-              href="/apply"
+              href="https://admission.aacoeargungu.edu.ng"
               className="hidden md:block bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-6 rounded-full transition-colors shadow-md hover:shadow-lg transform hover:scale-105"
             >
               Apply Now
