@@ -5,17 +5,17 @@ import { FaUserTie, FaChalkboardTeacher, FaBook, FaCalculator, FaUserGraduate } 
 const Management = () => {
   const managementTeam = [
     {
-      name: "Prof. Aliyu Mohammed",
+      name: "Dr. Abubakar Abubakar",
       position: "Provost",
       bio: "Professor of Education with over 25 years of experience in teacher education and administration.",
-      image: "/provost.jpg",
+      image: "/provost.jpeg",
       responsibilities: ["Overall administration of the college", "Academic leadership", "Policy implementation", "External relations"],
     },
     {
-      name: "Dr. Fatima Bello",
+      name: "Dr. Usman Gado Birnin Tudu",
       position: "Deputy Provost",
       bio: "Specialist in Curriculum Development with a PhD in Educational Administration.",
-      image: "/deputy-provost.jpg",
+      image: "/deputy-provost.jpeg",
       responsibilities: ["Assisting the Provost", "Academic affairs oversight", "Staff development", "Student welfare"],
     },
     {
@@ -51,7 +51,7 @@ const Management = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <PageHero img={"/about-hero.jpg"} title="College Management" description="Meet our dedicated administrative team" />
+      <PageHero img={"/admin.jpeg"} title="College Management" description="Meet our dedicated administrative team" />
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">

@@ -57,7 +57,7 @@ const ProvostMessage = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <PageHero img={"/about-hero.jpg"} title="Provost's Message" description="From the desk of Professor Aliyu Mohammed" />
+      <PageHero img={"/admin.jpeg"} title="Provost's Message" description="From the desk of Professor Aliyu Mohammed" />
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">
@@ -67,10 +67,10 @@ const ProvostMessage = () => {
             <div className="bg-white rounded-lg shadow-md p-8 mb-8">
               <div className="flex items-center mb-6">
                 <div className="relative w-24 h-24 rounded-full overflow-hidden mr-6 border-4 border-emerald-100">
-                  <Image src="/provost.jpg" alt="Professor Aliyu Mohammed" fill className="object-cover" />
+                  <Image src="/provost.jpeg" alt="Professor Aliyu Mohammed" fill className="object-cover" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-800">Professor Aliyu Mohammed</h2>
+                  <h2 className="text-2xl font-bold text-gray-800">Dr. Abubakar Abubakar</h2>
                   <p className="text-emerald-600">Provost, AACOE Argungu</p>
                   <p className="text-gray-500">Since 2020</p>
                 </div>
