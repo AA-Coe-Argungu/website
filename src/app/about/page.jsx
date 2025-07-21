@@ -32,7 +32,7 @@ const About = () => {
               </p>
             </div>
             <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-lg">
-              <Image src="/history-image.jpg" alt="College History" fill className="object-cover" />
+              <Image src="/admin.jpeg" alt="College History" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -91,7 +91,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-8">College Leadership</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: "Dr. Aliyu Mohammed", position: "Provost", image: "/provost.jpg" },
+              { name: "Dr. Aliyu Mohammed", position: "Provost", image: "/provost.jpeg" },
               { name: "Dr. Fatima Bello", position: "Deputy Provost", image: "/deputy-provost.jpg" },
               { name: "Alhaji Ibrahim Musa", position: "Registrar", image: "/registrar.jpg" },
             ].map((leader, index) => (

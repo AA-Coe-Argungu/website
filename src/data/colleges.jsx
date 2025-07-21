@@ -91,7 +91,7 @@ export const colleges = [
     acronym: "COSED",
     slug: "cosed",
     description: "Specializing in training science educators with strong theoretical knowledge and practical skills.",
-    image: "/college-science.jpg",
+    image: "/School Of Sciences.jpeg",
     departments: [
       {
         name: "Mathematics Education",
