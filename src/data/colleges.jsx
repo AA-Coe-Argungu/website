@@ -4,7 +4,7 @@ export const colleges = [
     acronym: "COED",
     slug: "coed",
     description: "The flagship college offering comprehensive teacher education programs to produce qualified educators for primary and secondary schools.",
-    image: "/college-education.jpg",
+    image: "/col-of-sci-edu.jpg",
     departments: [
       {
         name: "Educational Foundation",
@@ -300,14 +300,14 @@ export const colleges = [
       qualification: "PhD in Educational Administration",
       image: "/dean-fatima.jpg",
       contact: { phone: "+2348034567890", email: "coed@aacoe.edu.ng" }
-    }
+    } 
   },
   {
     name: "College of Art and Social Science",
     acronym: "COASS",
     slug: "coass",
     description: "The flagship college offering comprehensive teacher education programs to produce qualified educators for primary and secondary schools.",
-    image: "/college-education.jpg",
+    image: "/col-of-art.jpg",
     departments: [
       {
         name: "Islamic Studies",
@@ -610,7 +610,7 @@ export const colleges = [
     acronym: "COVTED",
     slug: "covted",
     description: "The flagship college offering comprehensive teacher education programs to produce qualified educators for primary and secondary schools.",
-    image: "/college-education.jpg",
+    image: "/col-of-vte.jpg",
     departments: [
       {
         name: "Agriculture Education",
@@ -841,7 +841,7 @@ export const colleges = [
     acronym: "COLAN",
     slug: "colan",
     description: "The flagship college offering comprehensive teacher education programs to produce qualified educators for primary and secondary schools.",
-    image: "/college-education.jpg",
+    image: "/col-of-lang.jpg",
     departments: [
       {
         name: "English Language",
@@ -1072,7 +1072,7 @@ export const colleges = [
     acronym: "COECCDE",
     slug: "coeccde",
     description: "The flagship college offering comprehensive teacher education programs to produce qualified educators for primary and secondary schools.",
-    image: "/college-education.jpg",
+    image: "/col-of-eccde.jpg",
     departments: [
       {
         name: "Primary Education Studies (PES)",
@@ -1226,7 +1226,6 @@ export const colleges = [
       contact: { phone: "+2348034567890", email: "coed@aacoe.edu.ng" }
     }
   },
-  
   {
     name: "College of Science Education",
     acronym: "COSED",
@@ -1673,7 +1672,7 @@ export const colleges = [
     acronym: "COUG",
     slug: "coug",
     description: "Specializing in training science educators with strong theoretical knowledge and practical skills.",
-    image: "/School Of Sciences.j",
+    image: "/col-of-ug.jpg",
     departments: [
       {
         name: "Islamic Education",
