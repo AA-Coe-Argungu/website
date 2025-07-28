@@ -92,7 +92,7 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { name: "Dr. Aliyu Mohammed", position: "Provost", image: "/provost.jpeg" },
-              { name: "Dr. Fatima Bello", position: "Deputy Provost", image: "/deputy-provost.jpg" },
+              { name: "Dr. Usman Gado Birnin Tudu", position: "Deputy Provost", image: "/deputy-provost.jpeg" },
               { name: "Alhaji Ibrahim Musa", position: "Registrar", image: "/registrar.jpg" },
             ].map((leader, index) => (
               <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
