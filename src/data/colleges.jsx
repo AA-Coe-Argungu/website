@@ -74,7 +74,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-1.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -146,7 +146,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-3.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -218,7 +218,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/dean-1.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -290,7 +290,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-1.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       }
@@ -298,7 +298,7 @@ export const colleges = [
     dean: {
       name: "Prof. Fatima Ahmed",
       qualification: "PhD in Educational Administration",
-      image: "/dean-fatima.jpg",
+      image: "/lecturer-1.jpg",
       contact: { phone: "+2348034567890", email: "coed@aacoe.edu.ng" }
     } 
   },
@@ -377,7 +377,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "lecturer-6.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -449,7 +449,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-5.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -521,7 +521,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-4.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -593,7 +593,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-3.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -601,7 +601,7 @@ export const colleges = [
     dean: {
       name: "Prof. Fatima Ahmed",
       qualification: "PhD in Educational Administration",
-      image: "/dean-fatima.jpg",
+      image: "/lecturer-2.jpg",
       contact: { phone: "+2348034567890", email: "coed@aacoe.edu.ng" }
     }
   },
@@ -680,7 +680,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/dean-1.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -752,7 +752,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-2.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -824,7 +824,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-1.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -832,7 +832,7 @@ export const colleges = [
     dean: {
       name: "Prof. Fatima Ahmed",
       qualification: "PhD in Educational Administration",
-      image: "/dean-fatima.jpg",
+      image: "/lecturer-3.jpg",
       contact: { phone: "+2348034567890", email: "coed@aacoe.edu.ng" }
     }
   },
@@ -911,7 +911,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-5.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -983,7 +983,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/dean-1.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -1055,7 +1055,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-2.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -1063,7 +1063,7 @@ export const colleges = [
     dean: {
       name: "Prof. Fatima Ahmed",
       qualification: "PhD in Educational Administration",
-      image: "/dean-fatima.jpg",
+      image: "/dean-1.jpg",
       contact: { phone: "+2348034567890", email: "coed@aacoe.edu.ng" }
     }
   },
@@ -1142,7 +1142,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-3.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -1214,7 +1214,7 @@ export const colleges = [
         hod: {
           name: "Dr. Amina Bello",
           qualification: "PhD in Social Studies Education",
-          image: "/hod-aminabello.jpg",
+          image: "/lecturer-4.jpg",
           contact: { phone: "+2348012345678", email: "ass@aacoe.edu.ng" }
         }
       },
@@ -1222,7 +1222,7 @@ export const colleges = [
     dean: {
       name: "Prof. Fatima Ahmed",
       qualification: "PhD in Educational Administration",
-      image: "/dean-fatima.jpg",
+      image: "/lecturer-4.jpg",
       contact: { phone: "+2348034567890", email: "coed@aacoe.edu.ng" }
     }
   },
@@ -1300,7 +1300,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-5.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1371,7 +1371,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-6.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1442,7 +1442,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-1.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1513,7 +1513,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-2.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1584,7 +1584,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/dean-1.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1655,7 +1655,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-5.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       }
@@ -1663,7 +1663,7 @@ export const colleges = [
     dean: {
       name: "Chief Emmanuel Ibrahim Tukur",
       qualification: "PhD in Science Education",
-      image: "/dean-school-of-sci.jpg",
+      image: "/lecturer-1.jpg",
       contact: { phone: "+2348067890123", email: "cosed@aacoe.edu.ng" }
     }
   },
@@ -1741,7 +1741,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/dean-1.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1812,7 +1812,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-6.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1883,7 +1883,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-1.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -1954,7 +1954,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-2.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -2025,7 +2025,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-6.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -2096,7 +2096,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-3.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       },
@@ -2167,7 +2167,7 @@ export const colleges = [
         hod: {
           name: "Dr. Grace Okoro",
           qualification: "PhD in Mathematics Education",
-          image: "/hod-grace.jpg",
+          image: "/lecturer-5.jpg",
           contact: { phone: "+2348056789012", email: "math@aacoe.edu.ng" }
         }
       }
@@ -2175,7 +2175,7 @@ export const colleges = [
     dean: {
       name: "Chief Emmanuel Ibrahim Tukur",
       qualification: "PhD in Science Education",
-      image: "/dean-school-of-sci.jpg",
+      image: "/lecturer-2.jpg",
       contact: { phone: "+2348067890123", email: "cosed@aacoe.edu.ng" }
     }
   },

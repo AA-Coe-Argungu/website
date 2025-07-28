@@ -38,7 +38,7 @@ const RegistrarMessage = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <PageHero 
-        img="/registrar-office.jpg" 
+        img="/admin.jpeg" 
         title="Registrar's Message" 
         description="From the desk of Alhaji Ibrahim Musa" 
       />
@@ -52,7 +52,7 @@ const RegistrarMessage = () => {
               <div className="flex items-center mb-6">
                 <div className="relative w-24 h-24 rounded-full overflow-hidden mr-6 border-4 border-emerald-100">
                   <Image 
-                    src="/registrar.jpg" 
+                    src="/dean-1.jpg" 
                     alt="Alhaji Ibrahim Musa"
                     fill
                     className="object-cover"

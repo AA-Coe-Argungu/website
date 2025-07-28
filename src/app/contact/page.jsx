@@ -150,8 +150,8 @@ const Contact = () => {
                   <FaPhone className="text-emerald-600 text-2xl mr-4 mt-1" />
                   <div>
                     <h3 className="text-lg font-bold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">+234 123 456 7890</p>
-                    <p className="text-gray-600">+234 987 654 3210</p>
+                    <p className="text-gray-600">+2348068722402</p>
+                    {/* <p className="text-gray-600">+234 987 654 3210</p> */}
                   </div>
                 </div>
 
