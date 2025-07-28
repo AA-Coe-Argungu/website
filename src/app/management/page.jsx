@@ -46,6 +46,13 @@ const Management = () => {
       image: "/dean-students.jpg",
       responsibilities: ["Student affairs", "Disciplinary matters", "Student organizations", "Welfare services"],
     },
+    {
+      name: "Abdullahi Umar Zagga",
+      position: "Ag Director Works",
+      bio: "Experienced engineer and facilities manager with a strong background in campus infrastructure, utilities, and maintenance planning.",
+      image: "/dir-works.jpg",
+      responsibilities: [ "Supervision of campus & maintenance", "Overseeing construction and renovation projects", "Facility planning and space management", "Budgeting for physical infrastructure"]
+}
   ];
 
   return (

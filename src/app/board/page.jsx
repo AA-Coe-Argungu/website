@@ -5,7 +5,7 @@ import { FaUserTie, FaUniversity, FaBalanceScale, FaGraduationCap, FaUsers, FaBo
 const Board = () => {
   const boardMembers = [
     {
-      name: "Alhaji Abdullahi Bello",
+      name: "Dr. Hussaini Suleiman Kangiwa",
       position: "Chairman",
       role: "Governing Council Chairman",
       bio: "Seasoned education administrator with 30 years of experience in public service.",
