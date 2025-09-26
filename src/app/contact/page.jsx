@@ -35,7 +35,7 @@ const Contact = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       
-       <PageHero img={"/about-hero.jpg"} title="Contact Us" description="We'd love to hear from you" />
+       <PageHero img={"/admin.jpeg"} title="Contact Us" description="We'd love to hear from you" />
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">

@@ -40,7 +40,7 @@ const RegistrarMessage = () => {
       <PageHero 
         img="/admin.jpeg" 
         title="Registrar's Message" 
-        description="From the desk of Alhaji Ibrahim Musa" 
+        description="From the desk of Malam Hussaini Sama'ila" 
       />
 
       {/* Main Content */}
@@ -52,14 +52,14 @@ const RegistrarMessage = () => {
               <div className="flex items-center mb-6">
                 <div className="relative w-24 h-24 rounded-full overflow-hidden mr-6 border-4 border-emerald-100">
                   <Image 
-                    src="/dean-1.jpg" 
-                    alt="Alhaji Ibrahim Musa"
+                    src="/registrar.jpg" 
+                    alt="Malam Hussaini Sama'ila"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-800">Alhaji Ibrahim Musa</h2>
+                  <h2 className="text-2xl font-bold text-gray-800">Malam Hussaini Sama'ila</h2>
                   <p className="text-emerald-600">Registrar, AACOE Argungu</p>
                   <p className="text-gray-500">Since 2019</p>
                 </div>
@@ -93,7 +93,7 @@ const RegistrarMessage = () => {
                 </p>
 
                 <p className="font-medium">
-                  Alhaji Ibrahim Musa<br />
+                  Malam Hussaini Sama'ila<br />
                   Registrar, AACOE Argungu
                 </p>
               </div>

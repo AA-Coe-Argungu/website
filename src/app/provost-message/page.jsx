@@ -31,13 +31,13 @@ const ProvostMessage = () => {
       title: "New Faculty Building",
       description: "Construction of a 500-capacity faculty building for Science Education",
       progress: "65%",
-      completion: "December 2024",
+      completion: "December 2025",
     },
     {
       title: "E-Learning Platform",
       description: "Development of a comprehensive online learning management system",
       progress: "80%",
-      completion: "August 2024",
+      completion: "August 2025",
     },
     {
       title: "Staff Housing Scheme",
@@ -57,7 +57,7 @@ const ProvostMessage = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <PageHero img={"/admin.jpeg"} title="Provost's Message" description="From the desk of Professor Aliyu Mohammed" />
+      <PageHero img={"/admin.jpeg"} title="Provost's Message" description="From the desk of Dr. Abubakar Abubakar" />
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">

@@ -75,7 +75,7 @@ const Gallery = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <PageHero 
-        img={"/gallery-hero.jpg"} 
+        img={"/admin.jpeg"} 
         title="College Gallery" 
         description="Explore our collection of photos, videos and audio from campus events" 
       />

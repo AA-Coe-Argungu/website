@@ -110,7 +110,7 @@ const Colleges = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <PageHero img={"/about-hero.jpg"} title="Our Colleges" description="Academic divisions of excellence" />
+      <PageHero img={"/admin.jpeg"} title="Our Colleges" description="Academic divisions of excellence" />
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">

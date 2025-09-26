@@ -84,7 +84,7 @@ const Board = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
 
-      <PageHero img={"/about-hero.jpg"} title="Governing Council" description="Our distinguished board members" />
+      <PageHero img={"/admin.jpeg"} title="Governing Council" description="Our distinguished board members" />
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">
         {/* Introduction */}

@@ -32,7 +32,7 @@ export default function DepartmentPage() {
     <div className="bg-gray-50 min-h-screen">
       {/* Department Header */}
       <PageHero
-        img={"/about-hero.jpg"}
+        img={"/admin.jpeg"}
         back={{ link: "/colleges", name: college.name }}
         title="Our Colleges"
         description={`${college.name} - ${college.acronym}`}

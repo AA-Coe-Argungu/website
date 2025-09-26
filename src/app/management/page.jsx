@@ -19,32 +19,25 @@ const Management = () => {
       responsibilities: ["Assisting the Provost", "Academic affairs oversight", "Staff development", "Student welfare"],
     },
     {
-      name: "Alhaji Ibrahim Musa",
+      name: "Malam Hussaini Sama'ila",
       position: "Registrar",
       bio: "Seasoned administrator with 20 years of experience in tertiary education management.",
-      image: "/lecturer-1.jpg",
+      image: "/registrar.jpg",
       responsibilities: ["Secretary to Governing Council", "Student records management", "Administrative coordination", "Statutory compliance"],
     },
     {
-      name: "Mrs. Amina Yusuf",
-      position: "College Librarian",
+      name: "Sama'ila Sa'idu",
+      position: "Ag Bursar",
       bio: "MLS holder with specialization in digital library systems and information management.",
-      image: "/dean-1.jpg",
-      responsibilities: ["Library administration", "Information resources management", "Research support", "Digital library development"],
+      image: "/bursar.jpg",
+      responsibilities: ["Management of financial accounts", "Budget planning and implementation", "Overseeing payments and disbursements", "Payroll administration"],
     },
     {
-      name: "Mr. Abdullahi Tanko",
-      position: "Chief Accountant",
-      bio: "Fellow of the Institute of Chartered Accountants of Nigeria (ICAN) with 18 years experience.",
-      image: "/lecturer-2.jpg",
-      responsibilities: ["Financial management", "Budget preparation", "Financial reporting", "Grant administration"],
-    },
-    {
-      name: "Dr. Samuel Okoro",
-      position: "Dean of Students",
-      bio: "Educational psychologist with expertise in student development and counseling.",
-      image: "/lecturer-5.jpg",
-      responsibilities: ["Student affairs", "Disciplinary matters", "Student organizations", "Welfare services"],
+      name: "Dr. Sa'ad Ibraheem",
+      position: "Desk Officer",
+      bio: "MLS holder with specialization in digital library systems and information management.",
+      image: "/col-desk-officer.jpg",
+      responsibilities: ["Departmental meetings and schedules", "Response to student and staff inquiries", "Event planning and coordination", "Managing Communication"],
     },
     {
       name: "Abdullahi Umar Zagga",
@@ -52,7 +45,28 @@ const Management = () => {
       bio: "Experienced engineer and facilities manager with a strong background in campus infrastructure, utilities, and maintenance planning.",
       image: "/dir-works.jpg",
       responsibilities: [ "Supervision of campus & maintenance", "Overseeing construction and renovation projects", "Facility planning and space management", "Budgeting for physical infrastructure"]
-}
+    },
+    // {
+    //   name: "Mrs. Amina Yusuf",
+    //   position: "College Librarian",
+    //   bio: "MLS holder with specialization in digital library systems and information management.",
+    //   image: "/dean-1.jpg",
+    //   responsibilities: ["Library administration", "Information resources management", "Research support", "Digital library development"],
+    // },
+    // {
+    //   name: "Dr. Samuel Okoro",
+    //   position: "Dean of Students",
+    //   bio: "Educational psychologist with expertise in student development and counseling.",
+    //   image: "/lecturer-5.jpg",
+    //   responsibilities: ["Student affairs", "Disciplinary matters", "Student organizations", "Welfare services"],
+    // },
+    // {
+    //   name: "Mr. Abdullahi Tanko",
+    //   position: "Chief Accountant",
+    //   bio: "Fellow of the Institute of Chartered Accountants of Nigeria (ICAN) with 18 years experience.",
+    //   image: "/lecturer-2.jpg",
+    //   responsibilities: ["Financial management", "Budget preparation", "Financial reporting", "Grant administration"],
+    // },
   ];
 
   return (

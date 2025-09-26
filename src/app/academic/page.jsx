@@ -7,7 +7,7 @@ const Academics = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <PageHero 
-        img={"/academic-hero.jpg"} 
+        img={"/admin.jpeg"} 
         title="Academic Staff" 
         description="Meet our distinguished faculty members" 
       />

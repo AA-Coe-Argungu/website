@@ -6,17 +6,28 @@ import PageHero from '@/components/PageHero';
 import { FaCalendarAlt, FaComments, FaArrowRight, FaSearch, FaRegClock } from 'react-icons/fa';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-// Mock data for news and events
 const newsData = {
   categories: [
     { id: 1, name: 'Academic', slug: 'academic' },
     { id: 2, name: 'Events', slug: 'events' },
     { id: 3, name: 'Sports', slug: 'sports' },
     { id: 4, name: 'Announcements', slug: 'announcements' },
+    { id: 5, name: 'Visit', slug: 'visit'}
   ],
   articles: [
     {
       id: 1,
+      title: 'Commissioner Visit To ICT Centre',
+      slug: 'sports-week-2023',
+      excerpt: 'Commissioner for Higher Education visits the College ICT Centre Building.',
+      content: 'The college administration has released the schedule for the 2023 Annual Sports Week. Events will include football, athletics, volleyball, and table tennis competitions between departments. The opening ceremony will feature a parade of athletes and a keynote address by renowned sports administrator Alhaji Yusuf Bello.',
+      category: 'visit',
+      date: '2023-11-10',
+      image: '/commisioner-ict-1.jpg',
+      comments: []
+    },
+    {
+      id: 2,
       title: 'College Announces New Computer Science Program',
       slug: 'new-computer-science-program',
       excerpt: 'The college is proud to announce a new Computer Science Education program starting next semester.',
@@ -30,7 +41,7 @@ const newsData = {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: 'Annual Sports Week Schedule Released',
       slug: 'sports-week-2023',
       excerpt: 'The schedule for this year\'s inter-departmental sports competition is now available.',
@@ -40,7 +51,7 @@ const newsData = {
       image: '/news/sports-week.jpg',
       comments: []
     },
-    // Add more articles...
+     
   ]
 };
 
@@ -244,7 +255,7 @@ const NewsPage = ({ params }) => {
   // Main news listing page
   return (
     <div className="bg-gray-50">
-      <PageHero img="/news-hero.jpg" title="News & Events" description="Stay updated with the latest happenings at our college" />
+      <PageHero img="/admin.jpeg" title="News & Events" description="Stay updated with the latest happenings at our college" />
       
       <div className="container mx-auto px-4 py-12">
         {/* Category Filter and Search */}

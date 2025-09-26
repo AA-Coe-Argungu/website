@@ -88,7 +88,7 @@ const GradingSystem = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <PageHero 
-        img={"/grading-hero.jpg"} 
+        img={"/admin.jpeg"} 
         title="Academic Grading System" 
         description="Understanding our evaluation framework and academic policies" 
       />

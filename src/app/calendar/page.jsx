@@ -5,67 +5,67 @@ import { FaCalendarAlt, FaBook, FaChalkboardTeacher, FaGraduationCap, FaExclamat
 const AcademicCalendar = () => {
   // Current semester data - update these dates as needed
   const currentSemester = {
-    title: "First Semester 2023/2024 Academic Session",
-    startDate: "October 2, 2023",
-    endDate: "February 9, 2024",
+    title: "First Semester 2024/2025 Academic Session",
+    startDate: "October 2, 2024",
+    endDate: "February 9, 2025",
     weeks: 18,
     activities: [
       {
-        date: "October 2 - 6, 2023",
+        date: "October 2 - 6, 2025",
         event: "Resumption/Registration",
         icon: <FaCalendarAlt className="text-emerald-500" />,
         type: "administrative"
       },
       {
-        date: "October 9, 2023",
+        date: "October 9, 2025",
         event: "Lectures Begin",
         icon: <FaChalkboardTeacher className="text-emerald-500" />,
         type: "academic"
       },
       {
-        date: "November 13 - 17, 2023",
+        date: "November 13 - 17, 2025",
         event: "First Continuous Assessment",
         icon: <FaBook className="text-emerald-500" />,
         type: "assessment"
       },
       {
-        date: "December 18, 2023 - January 5, 2024",
+        date: "December 18, 2024 - January 5, 2025",
         event: "Mid-Semester Break",
         icon: <FaCalendarAlt className="text-emerald-500" />,
         type: "break"
       },
       {
-        date: "January 8, 2024",
+        date: "January 8, 2025",
         event: "Lectures Resume",
         icon: <FaChalkboardTeacher className="text-emerald-500" />,
         type: "academic"
       },
       {
-        date: "January 22 - 26, 2024",
+        date: "January 22 - 26, 2025",
         event: "Second Continuous Assessment",
         icon: <FaBook className="text-emerald-500" />,
         type: "assessment"
       },
       {
-        date: "February 5 - 9, 2024",
+        date: "February 5 - 9, 2025",
         event: "Revision Week",
         icon: <FaBook className="text-emerald-500" />,
         type: "academic"
       },
       {
-        date: "February 12 - 23, 2024",
+        date: "February 12 - 23, 2025",
         event: "First Semester Examinations",
         icon: <FaGraduationCap className="text-emerald-500" />,
         type: "examination"
       },
       {
-        date: "February 26, 2024",
+        date: "February 26, 2025",
         event: "Semester Break Begins",
         icon: <FaCalendarAlt className="text-emerald-500" />,
         type: "break"
       },
       {
-        date: "March 4, 2024",
+        date: "March 4, 2025",
         event: "Examination Results Released",
         icon: <FaExclamationTriangle className="text-emerald-500" />,
         type: "result"
@@ -103,7 +103,7 @@ const AcademicCalendar = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <PageHero 
-        img={"/calendar-hero.jpg"} 
+        img={"/admin.jpeg"} 
         title="Academic Calendar" 
         description={`${currentSemester.title} Schedule`} 
       />

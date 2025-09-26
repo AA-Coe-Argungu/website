@@ -1,6 +1,92 @@
-export const albums = [
+ export const albums = [
   {
     id: 1,
+    title: "Campus Facilities",
+    coverImage: "/admin.jpeg",
+    date: "Ongoing",
+    media: [
+      {
+        type: "image",
+        url: "/lib-int-1.jpg",
+        alt: "College library",
+      },
+      {
+        type: "image",
+        url: "/lib-int-2.jpg",
+        alt: "College library",
+      },
+      {
+        type: "image",
+        url: "/lib-int-3.jpg",
+        alt: "College library",
+      },
+      {
+        type: "image",
+        url: "/lib-int-4.jpg",
+        alt: "College library",
+      },
+      {
+        type: "image",
+        url: "/ict.jpg",
+        alt: "College ICT Centre",
+      },
+      {
+        type: "image",
+        url: "/col-clinic.jpg",
+        alt: "College Clinic",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Commissioner for Higher Education Visit",
+    coverImage: "/commisioner-ict-1.jpg",
+    date: "Ongoing",
+    media: [
+      {
+        type: "image",
+        url: "/commisioner-ict-1.jpg",
+        alt: "ICT Visit",
+      },
+      {
+        type: "image",
+        url: "/commisioner-ict-2.jpg",
+        alt: "ICT Visit",
+      },
+      {
+        type: "image",
+        url: "/commisioner-ict-3.jpg",
+        alt: "ICT Visit",
+      },
+      {
+        type: "image",
+        url: "/commisioner-ict-4.jpg",
+        alt: "ICT Visit",
+      },
+      {
+        type: "image",
+        url: "/commisioner-ict-5.jpg",
+        alt: "ICT Visit",
+      },
+      {
+        type: "image",
+        url: "/commisioner-ict-6.jpg",
+        alt: "ICT Visit",
+      },
+      {
+        type: "image",
+        url: "/commisioner-ict-7.jpg",
+        alt: "ICT Visit",
+      },
+      {
+        type: "image",
+        url: "/commisioner-ict-8.jpg",
+        alt: "ICT Visit",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "2023 Convocation Ceremony",
     coverImage: "https://source.unsplash.com/random/800x600/?graduation",
     date: "November 15, 2023",
@@ -29,8 +115,9 @@ export const albums = [
       },
     ],
   },
-  {
-    id: 2,
+  
+   {
+    id: 4,
     title: "Sports Week 2023",
     coverImage: "https://source.unsplash.com/random/800x600/?sports",
     date: "March 5-10, 2023",
@@ -54,7 +141,7 @@ export const albums = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: "Cultural Day Celebration",
     coverImage: "https://source.unsplash.com/random/800x600/?culture",
     date: "October 12, 2023",
@@ -80,30 +167,6 @@ export const albums = [
         url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
         thumbnail: "https://source.unsplash.com/random/300x300/?music",
         alt: "Traditional music",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Campus Facilities",
-    coverImage: "https://source.unsplash.com/random/800x600/?university",
-    date: "Ongoing",
-    media: [
-      {
-        type: "image",
-        url: "https://source.unsplash.com/random/800x600/?library",
-        alt: "College library",
-      },
-      {
-        type: "image",
-        url: "https://source.unsplash.com/random/800x600/?laboratory",
-        alt: "Science lab",
-      },
-      {
-        type: "video",
-        url: "https://www.youtube.com/watch?v=7wtfhZwyrcc",
-        thumbnail: "https://img.youtube.com/vi/7wtfhZwyrcc/maxresdefault.jpg",
-        alt: "Campus tour",
       },
     ],
   },

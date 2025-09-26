@@ -102,7 +102,7 @@ const Requirement = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <PageHero 
-        img={"/admission-hero.jpg"} 
+        img={"/admin.jpeg"} 
         title="Admission Requirements" 
         description="Entry qualifications for our NCE and Degree programs" 
       />

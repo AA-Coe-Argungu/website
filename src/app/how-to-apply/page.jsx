@@ -135,7 +135,7 @@ const HowToApply = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <PageHero 
-        img={"/apply-hero.jpg"} 
+        img={"/admin.jpeg"} 
         title="How to Apply" 
         description="Step-by-step guide to our admission process" 
       />

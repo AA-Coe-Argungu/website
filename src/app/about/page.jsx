@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <PageHero img={"/about-hero.jpg"} title="About AACOE Argungu" description="Excellence in Teacher Education Since 1992" />
+      <PageHero img={"/ict.jpg"} title="About AACOE Argungu" description="Excellence in Teacher Education Since 1992" />
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">
@@ -93,7 +93,7 @@ const About = () => {
             {[
               { name: "Dr. Aliyu Mohammed", position: "Provost", image: "/provost.jpeg" },
               { name: "Dr. Usman Gado Birnin Tudu", position: "Deputy Provost", image: "/deputy-provost.jpeg" },
-              { name: "Alhaji Ibrahim Musa", position: "Registrar", image: "/dean-1.jpg" },
+              { name: "Malam Hussaini Samaila", position: "Registrar", image: "/registrar.jpg" },
             ].map((leader, index) => (
               <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
                 <div className="relative h-64 w-full">
