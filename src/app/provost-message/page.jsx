@@ -103,7 +103,7 @@ const ProvostMessage = () => {
                 </p>
 
                 <p className="font-medium">
-                  Professor Aliyu Mohammed
+                  Dr. Abubakar Abubakar
                   <br />
                   Provost, AACOE Argungu
                 </p>
