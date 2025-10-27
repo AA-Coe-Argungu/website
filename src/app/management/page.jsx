@@ -7,42 +7,36 @@ const Management = () => {
     {
       name: "Dr. Abubakar Abubakar",
       position: "Provost",
-      bio: "Professor of Education with over 25 years of experience in teacher education and administration.",
       image: "/provost.jpeg",
       responsibilities: ["Overall administration of the college", "Academic leadership", "Policy implementation", "External relations"],
     },
     {
       name: "Dr. Usman Gado Birnin Tudu",
       position: "Deputy Provost",
-      bio: "Specialist in Curriculum Development with a PhD in Educational Administration.",
       image: "/deputy-provost.jpeg",
       responsibilities: ["Assisting the Provost", "Academic affairs oversight", "Staff development", "Student welfare"],
     },
     {
       name: "Malam Hussaini Sama'ila",
       position: "Registrar",
-      bio: "Seasoned administrator with 20 years of experience in tertiary education management.",
       image: "/registrar.jpg",
       responsibilities: ["Secretary to Governing Council", "Student records management", "Administrative coordination", "Statutory compliance"],
     },
     {
       name: "Sama'ila Sa'idu",
       position: "Ag Bursar",
-      bio: "MLS holder with specialization in digital library systems and information management.",
       image: "/bursar.jpg",
       responsibilities: ["Management of financial accounts", "Budget planning and implementation", "Overseeing payments and disbursements", "Payroll administration"],
     },
     {
       name: "Dr. Sa'ad Ibraheem",
       position: "Desk Officer",
-      bio: "MLS holder with specialization in digital library systems and information management.",
       image: "/col-desk-officer.jpg",
       responsibilities: ["Departmental meetings and schedules", "Response to student and staff inquiries", "Event planning and coordination", "Managing Communication"],
     },
     {
       name: "Abdullahi Umar Zagga",
       position: "Ag Director Works",
-      bio: "Experienced engineer and facilities manager with a strong background in campus infrastructure, utilities, and maintenance planning.",
       image: "/dir-works.jpg",
       responsibilities: [ "Supervision of campus & maintenance", "Overseeing construction and renovation projects", "Facility planning and space management", "Budgeting for physical infrastructure"]
     },

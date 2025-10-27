@@ -58,7 +58,7 @@ const HomePage = () => {
     { title: "B.Ed Education & Mathematics", duration: "4 Years", type: "Undergraduate" },
     { title: "NCE Early Childhood Care", duration: "3 Years", type: "NCE" },
   ];
-
+ 
   // Section 5: Alumni
   const alumni = {
     name: "Amina Mohammed",

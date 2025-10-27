@@ -1,36 +1,42 @@
 import { FaChalkboardTeacher, FaUserGraduate, FaBookOpen, FaFlask, FaLanguage, FaCalculator } from "react-icons/fa";
 export const staff = [
   {
-    name: "School of Education",
+    name: "School of Science Education",
     icon: <FaChalkboardTeacher className="text-emerald-600 text-2xl" />,
     staff: [
       {
-        name: "Dr. Aminu S. Bello",
+        name: "Malam Umar Isah",
         position: "Head of Department",
-        qualification: "PhD Educational Psychology",
-        image: "/lecturer-1.jpg",
-        courses: ["Educational Psychology", "Child Development"],
+        qualification: "Computer Science Department",
+        image: "/hod-com-sci.jpg",
+        // courses: ["Educational Psychology", "Child Development"],
       },
       {
-        name: "Prof. Halima Y. Abdullahi",
-        position: "Professor",
-        qualification: "PhD Curriculum Studies",
-        image: "/lecturer-2.jpg",
-        courses: ["Curriculum Development", "Teaching Methods"],
+        name: "Malam Haruna Muhammad",
+        position: "Head of Department",
+        qualification: "Mathematics Department",
+        image: "/hod-math.jpg",
+        // courses: ["Curriculum Development", "Teaching Methods"],
       },
-      // Add more staff...
     ],
   },
   {
-    name: "School of Arts and Social Sciences",
+    name: "School of Early Child Care Development Education",
     icon: <FaLanguage className="text-emerald-600 text-2xl" />,
     staff: [
       {
-        name: "Dr. Yakubu G. Mohammed",
+        name: "Malam Basheer Hassan Aliyu",
         position: "Head of Department",
-        qualification: "PhD English Literature",
-        image: "/lecturer-3.jpg",
-        courses: ["English Literature", "Linguistics"],
+        qualification: "Primary Education Department",
+        image: "/hod-ped.jpg",
+        // courses: ["English Literature", "Linguistics"],
+      },
+      {
+        name: "Malam Harisu Ahmad ",
+        position: "Head of Department",
+        qualification: "Early Childhood Care Development Education Department",
+        image: "/hod-eccde.jpg",
+        // courses: ["English Literature", "Linguistics"],
       },
       // Add more staff...
     ],
@@ -40,28 +46,28 @@ export const staff = [
     icon: <FaFlask className="text-emerald-600 text-2xl" />,
     staff: [
       {
-        name: "Dr. Fatima A. Sani",
-        position: "Head of Department",
-        qualification: "PhD Biochemistry",
-        image: "/lecturer-6.jpg",
-        courses: ["Biochemistry", "Molecular Biology"],
+        name: "Dr. Sa'ad Ibrahim",
+        position: "Desk Officer ",
+        qualification: "Geography Department",
+        image: "/col-desk-officer.jpg",
+        // courses: ["Biochemistry", "Molecular Biology"],
       },
       // Add more staff...
     ],
   },
-  {
-    name: "School of Vocational and Technical Education",
-    icon: <FaCalculator className="text-emerald-600 text-2xl" />,
-    staff: [
-      {
-        name: "Dr. Ibrahim K. Bello",
-        position: "Head of Department",
-        qualification: "PhD Technical Education",
-        image: "/dean-1.jpg",
-        courses: ["Technical Drawing", "Workshop Practice"],
-      },
-      // Add more staff...
-    ],
-  },
+  // {
+  //   name: "School of Vocational and Technical Education",
+  //   icon: <FaCalculator className="text-emerald-600 text-2xl" />,
+  //   staff: [
+  //     {
+  //       name: "Dr. Ibrahim K. Bello",
+  //       position: "Head of Department",
+  //       qualification: "PhD Technical Education",
+  //       image: "/dean-1.jpg",
+  //       courses: ["Technical Drawing", "Workshop Practice"],
+  //     },
+  //     // Add more staff...
+  //   ],
+  // },
   // Add more departments...
 ];

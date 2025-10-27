@@ -91,7 +91,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-8">College Leadership</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: "Dr. Aliyu Mohammed", position: "Provost", image: "/provost.jpeg" },
+              { name: "Dr. Abubakar Abubakar", position: "Provost", image: "/provost.jpeg" },
               { name: "Dr. Usman Gado Birnin Tudu", position: "Deputy Provost", image: "/deputy-provost.jpeg" },
               { name: "Malam Hussaini Samaila", position: "Registrar", image: "/registrar.jpg" },
             ].map((leader, index) => (

@@ -40,14 +40,6 @@ const Academics = () => {
                       <h4 className="font-bold text-gray-800">{staff.name}</h4>
                       <p className="text-emerald-600 text-sm">{staff.position}</p>
                       <p className="text-gray-500 text-sm mt-1">{staff.qualification}</p>
-                      <div className="mt-2">
-                        <p className="text-sm font-medium text-gray-700">Courses:</p>
-                        <ul className="text-sm text-gray-600 list-disc list-inside">
-                          {staff.courses.map((course, i) => (
-                            <li key={i}>{course}</li>
-                          ))}
-                        </ul>
-                      </div>
                     </div>
                   </div>
                 ))}
